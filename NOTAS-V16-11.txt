@@ -1,0 +1,1 @@
+V16.11 — Correções: G do Google em dourado; e-mail mantém mailto com destinatário/assunto/mensagem e exibe opção de copiar caso o aplicativo não abra; desktop com enquadramento ancorado no topo (rostos) e degradê azul-marinho integrado ao menu. Mobile e demais seções preservados. Nada publicado.

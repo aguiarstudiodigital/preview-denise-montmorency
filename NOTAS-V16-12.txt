@@ -1,0 +1,1 @@
+V16.12 — Corrige exclusivamente o menu desktop sobre a hero: transparencia progressiva, sem desfoque de rostos, e texto branco legivel. Reverte todas as mudancas de enquadramento da V16.11, preservando o video, a imagem final e os documentos visiveis como na V16.10. Mantem Google dourado e ajustes de e-mail da V16.11, hero mobile e demais secoes. Nada publicado.

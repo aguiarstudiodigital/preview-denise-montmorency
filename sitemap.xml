@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Substituir DOMINIO-OFICIAL antes da publicação definitiva -->
+<!-- URL da preview: substituir todas as ocorrências pelo domínio definitivo antes da HostGator -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://DOMINIO-OFICIAL/</loc></url>
-  <url><loc>https://DOMINIO-OFICIAL/privacidade.html</loc></url>
-  <url><loc>https://DOMINIO-OFICIAL/termos.html</loc></url>
-  <url><loc>https://DOMINIO-OFICIAL/cookies.html</loc></url>
-  <url><loc>https://DOMINIO-OFICIAL/aviso-legal.html</loc></url>
+  <url><loc>https://aguiarstudiodigital.github.io/preview-denise-montmorency/</loc></url>
+  <url><loc>https://aguiarstudiodigital.github.io/preview-denise-montmorency/privacidade.html</loc></url>
+  <url><loc>https://aguiarstudiodigital.github.io/preview-denise-montmorency/termos.html</loc></url>
+  <url><loc>https://aguiarstudiodigital.github.io/preview-denise-montmorency/cookies.html</loc></url>
+  <url><loc>https://aguiarstudiodigital.github.io/preview-denise-montmorency/aviso-legal.html</loc></url>
 </urlset>

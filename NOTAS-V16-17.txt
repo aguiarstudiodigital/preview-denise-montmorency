@@ -1,0 +1,5 @@
+V16.17 — Cabeçalho com apenas o monograma DM recortado diretamente do logo original do site.
+Nenhum símbolo foi redesenhado ou gerado por IA. Foram retiradas as letras pequenas e o nome ao lado do monograma.
+Sem alterações no vídeo hero, animação horizontal, links, seções, demais textos ou recursos.
+Arte original integral permanece em assets/logo-denise.jpg. Monograma recortado: assets/monograma-dm-original.png.
+Prévia standalone para abrir diretamente no navegador sem descompactar.

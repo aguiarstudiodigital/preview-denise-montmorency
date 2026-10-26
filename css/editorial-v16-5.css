@@ -1,0 +1,47 @@
+/* Aguiar Studio Digital | Denise V16.5 | Navegacao navy glass permanente
+   Revisao visual aprovada: topo mais escuro, clareando para baixo,
+   com transicao delicada ao video e as secoes claras.
+   Sem alterar a composicao, os videos ou o enquadramento da hero. */
+@media (min-width:768px) {
+  .nav, .nav:not(.nav-scrolled), .nav.nav-scrolled {
+    background:linear-gradient(180deg,
+      rgba(5,20,37,.80) 0%,
+      rgba(7,24,43,.74) 52%,
+      rgba(9,27,47,.68) 100%) !important;
+    -webkit-backdrop-filter:blur(11px) saturate(108%);
+    backdrop-filter:blur(11px) saturate(108%);
+    box-shadow:none !important;
+  }
+  .nav::after {
+    display:block !important;
+    content:"" !important;
+    position:absolute;
+    top:100%;left:0;right:0;
+    height:32px;
+    background:linear-gradient(180deg,
+      rgba(9,27,47,.24) 0%,
+      rgba(9,27,47,.08) 57%,
+      rgba(9,27,47,0) 100%);
+    pointer-events:none;
+    border:0;
+  }
+  .nav-inner {height:60px;}
+  .nav-links a:not(.btn),.brand-mini {color:#fff;}
+  .nav-links a:not(.btn){text-shadow:0 1px 2px rgba(0,0,0,.32);}
+}
+@media (max-width:767px) {
+  .nav, .nav:not(.nav-scrolled), .nav.nav-scrolled {
+    background:linear-gradient(180deg,rgba(5,20,37,.88),rgba(8,25,44,.77)) !important;
+    -webkit-backdrop-filter:blur(9px);
+    backdrop-filter:blur(9px);
+    box-shadow:none !important;
+  }
+  .nav::after {
+    display:block !important;
+    content:"" !important;
+    height:18px;
+    background:linear-gradient(180deg,rgba(8,25,44,.22),transparent);
+    pointer-events:none;
+  }
+  .nav-links.open {background:rgba(5,20,37,.97);}
+}

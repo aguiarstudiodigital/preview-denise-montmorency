@@ -1,0 +1,1 @@
+V16.9 — Contato: WhatsApp em destaque, texto de acolhimento revisado, 4 canais alternativos e ícone Google. E-mail continua como mailto (não envia diretamente do GitHub Pages). Nenhuma alteração na hero, menu ou outras seções.

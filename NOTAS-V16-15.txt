@@ -1,0 +1,7 @@
+ASD Denise Montmorency V16.15
+Base: V16.14.
+Mudanca pontual: secao O que nos move convertida em scroll horizontal em tres etapas, mantendo textos aprovados.
+Ajuste de menu adaptativo para fundo escuro nessa secao.
+Sem alteracoes na hero, video, contato, FAQs ou outras paginas.
+Acessibilidade: prefere movimento reduzido = painéis verticais sem fixacao.
+Nao publicado; validar em iPhone/Android/desktop antes de publicar.

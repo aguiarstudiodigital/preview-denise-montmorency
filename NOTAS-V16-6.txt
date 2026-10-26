@@ -1,0 +1,1 @@
+V16.6 — Hero mobile: video e imagem final desde o topo, por tras do menu. Navy glass em degrade mais transparente para baixo, sem faixa solida. Demais secoes e desktop preservados. Nenhuma publicacao realizada.

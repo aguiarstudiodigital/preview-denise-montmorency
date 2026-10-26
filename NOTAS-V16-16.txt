@@ -1,0 +1,5 @@
+V16.16 — previa para validacao. Alteracao apenas na apresentacao da logomarca ORIGINAL no menu.
+A imagem assets/logo-denise.jpg foi mantida sem qualquer alteracao. Nao foi gerado novo simbolo.
+A expressao Advocacia Previdenciaria NAO foi adicionada a assinatura do menu.
+O texto Advocacia e Consultoria Juridica ja faz parte da arte original, dentro do circulo.
+O hero, video, animacao horizontal e demais secoes foram preservados.

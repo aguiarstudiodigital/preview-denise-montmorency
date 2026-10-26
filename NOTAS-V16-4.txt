@@ -1,0 +1,10 @@
+ASD | Denise | V16.4 | 19/10/2026
+
+Base: V16.3.
+- Vídeo desktop e quadro final começam no topo da hero, por trás do menu.
+- Removido o recuo vertical de 46 px e a máscara que escondia o topo das cenas.
+- Menu desktop mais fino (60 px), translúcido, com blur leve e sem faixa escura inferior.
+- Ao sair da hero, menu passa a azul-marinho sólido para leitura sobre seções claras.
+- Mantidos vídeos originais, foto final, tipografia, textos, links, FAQ e páginas legais.
+- Mobile preservado, exceto suavização da faixa inferior do menu.
+- Não publicado.

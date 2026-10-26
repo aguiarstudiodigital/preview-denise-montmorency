@@ -1,65 +1,37 @@
+AGUIAR STUDIO DIGITAL — DRA. DENISE MONTMORENCY — V16
+======================================================
+PRÉVIA PARA VALIDAÇÃO — NÃO PUBLICADA
 
-ASD SIGNATURE 01 — DENISE MONTMORENCY
-=====================================
+REVISÃO CONSOLIDADA
+- Hero: mensagem progressiva e permanente — “Cada pessoa tem sua realidade. E merece ser ouvida e orientada.”
+- Mantidos os vídeos desktop e mobile, reprodução única, enquadramento da V15.3 e cena final congelada.
+- “Nosso olhar”: somente “Antes de qualquer processo, existem pessoas.”, sem subtítulo e sem os três pilares repetitivos.
+- Áreas de atuação: lista editorial expansível com quatro temas, em lugar dos cards convencionais.
+- Perfil: “A Denise e o escritório”, com destaque para o primeiro atendimento e o apoio da equipe.
+- “O que nos move”: “Cada detalhe faz parte do cuidado.” com três momentos objetivos, em composição assimétrica.
+- Menu: Atuação · A Denise · Dúvidas · Contato + botão WhatsApp.
+- FAQ e contato minimalista com cinco canais preservados.
 
-Estrutura preparada para preview e para publicação final sem reconstrução.
+COMO AVALIAR
+- Extraia o ZIP e abra index.html no navegador (ou execute servidor estático).
+- Para testar rapidamente sem extrair, use o HTML de prévia interativa separado.
+- Veja a hero desde o início e espere os 15 segundos do vídeo; a mensagem fica completa na cena final.
+- Confira menu, detalhes das áreas, FAQ, links e layout no celular.
 
-COMO EDITAR
-- Contatos e links principais: js/config.js
-- Textos e seções: index.html
-- Cores, fontes e layout: css/style.css
-- Animações GSAP: js/animations.js
-- Comportamentos: js/main.js
-- Imagens reais: assets/
+ARQUIVOS PRINCIPAIS
+- index.html
+- css/style.css, css/editorial-v15.css, css/editorial-v16.css
+- js/config.js, js/main.js, js/hero-story.js, js/animations.js
+- assets/video/hero-desktop-final.mp4 e hero-mobile-final.mp4
+- assets/hero-freeze-desktop.webp e hero-freeze-mobile.webp
 
-PUBLICAÇÃO
-1. Preview: subir toda esta pasta para GitHub Pages.
-2. Produção: subir os mesmos arquivos para a pasta do domínio na HostGator.
-3. Antes da produção, trocar DOMINIO-OFICIAL em sitemap.xml pelo domínio escolhido.
-4. Validar cargos/comissões da OAB e créditos editoriais que serão destacados publicamente.
-5. Conectar GA4/Search Console somente após definir a política de cookies/consentimento aplicável.
-6. Testar WhatsApp, telefone, e-mail, Instagram e Maps no celular.
-7. Se houver uma cena Spline final, substituir apenas o conteúdo de #hero-3d-slot; o restante do site não precisa ser reconstruído.
+PENDÊNCIAS ANTES DA PUBLICAÇÃO
+- Validar com a Dra. Denise como deseja apresentar a equipe e confirmar que o texto a representa.
+- Confirmar credenciais profissionais, áreas de atuação e pesca artesanal.
+- Revisão jurídica/ética de todo o conteúdo, incluindo privacidade e uso de dados.
+- Confirmar link compartilhado do Google no desktop e mobile.
+- Testar navegadores físicos, especialmente Safari no iPhone e autoplay.
+- Ajustar domínio definitivo, metadados absolutos e sitemap.
 
-3D
-A V1 já possui composição tridimensional CSS + GSAP leve, responsiva e com reduced-motion.
-A cena Spline/WebGL pode ser plugada depois no slot do Hero sem refazer as demais seções.
-
-
-V7 — HERO CINEMATOGRÁFICA RESPONSIVA
-- Removida qualquer seção intermediária "Presença e experiência".
-- A Hero agora usa os vídeos finais fornecidos pela cliente.
-- Desktop carrega assets/video/hero-desktop.mp4.
-- Mobile carrega assets/video/hero-mobile.mp4.
-- O carregamento é automático por largura de tela e apenas um vídeo é carregado por vez.
-- Ambos os arquivos recebidos já vieram sem faixa de áudio.
-- Fallback estático incluído para conexão lenta, autoplay bloqueado ou preferência de movimento reduzido.
-- Site continua 100% portátil para HostGator (HTML/CSS/JS + assets locais).
-- Observação: os arquivos recebidos são 848x478 (desktop) e 478x850 (mobile). Funcionam para preview/produção leve, mas uma futura exportação em 1920x1080 e 1080x1920 aumentará a nitidez em telas grandes.
-
-
-V8 — REFINAMENTO GLOBAL
-- Tipografia reduzida e equilibrada no desktop e mobile.
-- Hero mobile ganhou mais respiro e hierarquia.
-- Títulos de seções deixaram de competir com a Hero.
-- Textos de apoio foram encurtados em Entender / Organizar / Planejar / Defender.
-- Autoridade: título reduzido para 'Conhecimento jurídico que gera autoridade.'
-- Publicações: título reduzido para 'Uma trajetória também registrada em livros.'
-- CTA final encurtado.
-- Melhoradas margens, espaçamentos e proporção entre imagem e texto.
-- Vídeos e estrutura técnica da V7 preservados.
-
-
-V9 — AJUSTES DE COPY E CONTATO
-- Título da seção de atuação alterado para 'Direito Previdenciário.'
-- Linha de telefone removida da seção de contato.
-- WhatsApp, e-mail, endereço e Instagram mantidos.
-- Demais ajustes e vídeos da V8 preservados.
-
-V11 — TIMING E VIEWPORT
-- Texto da Hero agora aparece somente após o evento real de término do vídeo.
-- Desktop respeita os ~16,06 s do vídeo e mobile os ~10,53 s, sem timer fixo de 9 s.
-- Após o fim real do vídeo, a copy entra com atraso curto de 250 ms.
-- Fallback técnico passou a considerar a duração real do arquivo, evitando entrada antecipada.
-- Hero ganhou regras específicas para notebooks/telas desktop de baixa altura, mantendo CTA e OAB visíveis em 100% de zoom.
-- Localização e cue de scroll são ocultados em telas desktop baixas para preservar o enquadramento principal.
+NÃO FOI PUBLICADO NO GITHUB OU HOSTGATOR.
+Publicação somente após autorização expressa da Aguiar Studio Digital.

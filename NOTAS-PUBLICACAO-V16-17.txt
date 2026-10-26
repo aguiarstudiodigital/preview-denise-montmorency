@@ -1,0 +1,7 @@
+Aguiar Studio Digital — Dra. Denise Montmorency V16.17
+Versão para GitHub Pages, preservando a hero e a animação horizontal.
+Monograma DM original recortado, sem reconstrução por IA.
+Ajuste técnico: vídeo mobile renomeado para hero-mobile-final.mp4, conforme index.html.
+Envie os arquivos e as pastas DESCOMPACTADOS para a raiz da branch main.
+Não envie somente este arquivo ZIP.
+A publicação é uma prévia para validação da cliente, não um lançamento em domínio próprio.

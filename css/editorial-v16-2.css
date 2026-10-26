@@ -1,0 +1,49 @@
+/* ASD V16.2 — header and hero framing refinements, 19/10/2026.
+   The original desktop and mobile video files are preserved.
+   The upper edge is softened without hiding the faces in the final scene. */
+
+/* The navigation remains legible over moving images and fades into the hero. */
+.nav {
+  background:linear-gradient(180deg,rgba(5,17,31,.97) 0%,rgba(5,17,31,.95) 70%,rgba(5,17,31,.91) 100%);
+  -webkit-backdrop-filter:blur(12px);
+  backdrop-filter:blur(12px);
+  box-shadow:none;
+}
+.nav::after {
+  content:"";
+  position:absolute;
+  top:100%;left:0;right:0;height:66px;
+  background:linear-gradient(180deg,rgba(5,17,31,.85) 0%,rgba(5,17,31,.38) 55%,rgba(5,17,31,0) 100%);
+  pointer-events:none;
+}
+.nav-links a:not(.btn){color:#f8f5ef;text-shadow:0 1px 2px rgba(0,0,0,.28)}
+.nav-links a.btn-primary{color:#122237!important;text-shadow:none}
+.brand-mini{color:#f8f5ef}
+
+/* Desktop: top-align the entire source frame, including the last frozen image.
+   The source's natural headroom is retained instead of vertically center-cropped. */
+@media(min-width:768px){
+  .hero-editorial .hero-media::before {
+    top:112px;bottom:0;height:calc(100% - 112px);
+    background-position:center top;
+    -webkit-mask-image:linear-gradient(to bottom,transparent 0,#000 28px);
+    mask-image:linear-gradient(to bottom,transparent 0,#000 28px);
+  }
+  .hero-editorial .hero-bg-video {
+    inset:112px 0 0 0;width:100%;height:calc(100% - 112px);
+    object-position:center top;
+    -webkit-mask-image:linear-gradient(to bottom,transparent 0,#000 28px);
+    mask-image:linear-gradient(to bottom,transparent 0,#000 28px);
+  }
+  .hero-editorial .hero-final-frame {
+    inset:112px 0 0 0;
+    -webkit-mask-image:linear-gradient(to bottom,transparent 0,#000 28px);
+    mask-image:linear-gradient(to bottom,transparent 0,#000 28px);
+  }
+  .hero-editorial .hero-final-frame img{object-position:center top}
+}
+/* Mobile: keep the independently approved mobile portrait framing. */
+@media(max-width:767px){
+  .nav::after{height:35px;background:linear-gradient(180deg,rgba(5,17,31,.68),transparent)}
+  .nav-links{background:#07192c}
+}

@@ -1,0 +1,11 @@
+V16.10 — E-mail com assunto e mensagem preenchidos
+
+ÚNICO AJUSTE: o ícone E-mail continua abrindo o aplicativo de e-mail padrão do visitante, mas agora com destinatário, assunto e mensagem inicial preenchidos.
+
+Para: dra.denisepestana@gmail.com
+Assunto: Contato pelo site | Dra. Denise Montmorency
+Mensagem: Olá, Dra. Denise! Gostaria de receber orientação sobre minha situação.
+
+Os campos são editáveis pelo visitante antes do envio. O site não envia e-mails diretamente.
+
+Demais elementos da V16.9 preservados. Não publicado no GitHub ou na HostGator.

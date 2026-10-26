@@ -1,0 +1,1 @@
+V16.14 — Menu adaptativo conforme o fundo de cada secao. Hero: menu V16.13 identico, sem alterar o video nem enquadramento. Nosso olhar, Sobre e O que nos move: navy mais opaco. Atuacao, FAQ e Contato: navy translucido. Rodape: navy escuro. Mobile: hero sem faixa, demais secoes adaptativas. Sem publicacao.

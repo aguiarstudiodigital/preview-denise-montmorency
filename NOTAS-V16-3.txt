@@ -1,0 +1,10 @@
+ASD — Dra. Denise | V16.3 | 19/10/2026
+
+Base: V16.2. Alterações somente no cabeçalho e enquadramento da hero desktop.
+- Menu desktop reduzido para 64px; logomarca reduzida proporcionalmente, CTA mais compacto.
+- Removida a faixa escura de 66px abaixo do menu; transição agora de 20px.
+- Vídeo e imagem final passam a começar a 46px (antes 112px), com máscara de 14px (antes 28px).
+- Enquadramento do vídeo e quadro congelado sincronizados.
+- Mobile preservado, exceto transição inferior do menu mais leve.
+- Textos, links, vídeos, áreas, FAQ e páginas legais preservados.
+Não publicado.

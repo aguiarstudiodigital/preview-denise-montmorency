@@ -1,0 +1,24 @@
+/* Aguiar Studio Digital — V16.11: quatro correcoes pontuais.
+   Desktop: manter o topo das cabecas visivel e unificar o navy do menu/hero.
+   Mobile: preservar integralmente o enquadramento e menu aprovados.
+   Contato: Google monocromatico e alternativa de copiar e-mail. */
+.contact-section .contact-v169 .google-g-icon,
+.contact-section .contact-v169 .google-g-icon path {
+  color:#d8b38a;
+  fill:currentColor;
+}
+.contact-section .contact-v169 .email-fallback[hidden] {display:none!important}
+.contact-section .contact-v169 .email-fallback {
+  max-width:570px; margin:1.7rem auto 0; padding:14px 18px;
+  border:1px solid rgba(216,179,138,.35);border-radius:12px;
+  background:rgba(255,255,255,.035);color:#dce2e8;
+  display:flex;align-items:center;justify-content:center;gap:.65rem 1rem;flex-wrap:wrap;
+  font-size:.82rem;line-height:1.55;
+}
+.contact-section .contact-v169 .email-copy-button {
+  border:1px solid rgba(216,179,138,.75);border-radius:999px;
+  padding:.35rem .85rem;background:transparent;color:#e3c197;
+  font:600 .78rem/1.5 'DM Sans',sans-serif;cursor:pointer;
+}
+.contact-section .contact-v169 .email-copy-button:focus-visible {outline:2px solid #fff;outline-offset:3px}
+.contact-section .contact-v169 .email-copy-address {color:#d6dee6;overflow-wrap:anywhere}

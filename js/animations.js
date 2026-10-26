@@ -3,9 +3,6 @@
   if (!window.gsap || !window.ScrollTrigger || matchMedia("(prefers-reduced-motion: reduce)").matches) return;
   gsap.registerPlugin(ScrollTrigger);
 
-  gsap.from(".hero-copy > *", {
-    y: 26, opacity: 0, duration: .9, stagger: .09, ease: "power3.out"
-  });
 
   document.querySelectorAll("[data-reveal]").forEach((el) => {
     gsap.from(el, {

@@ -1,0 +1,36 @@
+/* ASD | Denise V16.12 — menu da hero desktop mais transparente.
+   Enquadramento, video, poster, documentos e area inferior da hero
+   sao os mesmos da V16.10. Nada na hero mobile foi alterado.
+   O cabecalho sobre as secoes internas conserva o navy glass anterior. */
+@media (min-width:768px) {
+  /* Somente quando a hero esta visivel. A imagem continua passando
+     por tras do menu, sem camada solida nem desfoque de rostos. */
+  .nav:not(.nav-scrolled) {
+    background:linear-gradient(180deg,
+      rgba(7,24,43,.40) 0%,
+      rgba(7,24,43,.22) 55%,
+      rgba(7,24,43,.05) 100%) !important;
+    -webkit-backdrop-filter:none !important;
+    backdrop-filter:none !important;
+    box-shadow:none !important;
+    border-bottom:0 !important;
+  }
+  .nav:not(.nav-scrolled)::after {
+    display:none !important;
+    content:none !important;
+  }
+  /* Texto branco com sombra discreta para permanecer legivel sobre
+     cenas claras; nao altera o botao dourado. */
+  .nav:not(.nav-scrolled) .brand-mini,
+  .nav:not(.nav-scrolled) .nav-links a:not(.btn) {
+    color:#fff !important;
+    text-shadow:0 1px 4px rgba(3,13,25,.85),0 0 12px rgba(3,13,25,.42);
+  }
+  /* No restante do site permanece o menu navy glass ja validado. */
+  .nav.nav-scrolled {
+    background:linear-gradient(180deg,rgba(5,20,37,.80),rgba(9,27,47,.68)) !important;
+    -webkit-backdrop-filter:blur(11px) saturate(108%) !important;
+    backdrop-filter:blur(11px) saturate(108%) !important;
+    box-shadow:none !important;
+  }
+}

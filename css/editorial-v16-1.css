@@ -1,0 +1,47 @@
+/* ASD V16.1 — compact editorial services + 2-column FAQ */
+/* Services: typographic hierarchy rather than oversized numbered cards. */
+.practice{padding:82px 0 78px!important}
+.practice-head{margin-bottom:32px!important}
+.practice-intro-text h2{font-size:clamp(3.15rem,4.45vw,5.05rem)!important;line-height:1.05!important;max-width:1080px;margin:1.05rem 0 1.1rem}
+.practice-intro-text p{max-width:690px;line-height:1.65}
+.practice-row summary{display:grid;grid-template-columns:minmax(0,1fr) 32px;gap:1.5rem;min-height:0;padding:19px 8px 20px 0;align-items:center}
+.practice-row-main{gap:.3rem}
+.practice-row-main strong{font-size:clamp(1.9rem,2.55vw,2.85rem);line-height:1.09;letter-spacing:-.025em}
+.practice-row-main small{font-size:.88rem;line-height:1.5}
+.practice-row-toggle{font:400 1.5rem/1 var(--sans);color:#d9b78b;align-self:center}
+.practice-row[open] .practice-row-toggle{transform:rotate(45deg)}
+.practice-row-detail{padding:0 46px 19px 0;max-width:760px}
+.practice-row-detail p{font-size:.88rem;line-height:1.65}
+.practice-footnote{margin-top:20px}
+/* FAQ: a concise label and six questions in two independent stacks. */
+.faq{padding:72px 0 77px!important}
+.faq-grid{display:block!important}
+.faq-intro{margin:0 0 27px}
+.faq-intro .eyebrow{color:#d7b58a;font-size:.83rem;letter-spacing:.19em}
+.faq-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;align-items:start}
+.faq-column{display:flex;flex-direction:column;gap:12px;min-width:0}
+.faq-item{margin:0}
+.faq-item summary{font-size:.91rem;line-height:1.45;padding:17px 50px 17px 20px}
+.faq-item summary::after{top:14px;right:16px}
+.faq-item p{font-size:.87rem;line-height:1.6;padding:0 20px 18px}
+@media(max-width:900px){
+ .practice{padding:70px 0!important}
+ .practice-intro-text h2{font-size:clamp(3rem,6.4vw,4.4rem)!important}
+ .practice-row-main strong{font-size:clamp(1.85rem,3.7vw,2.55rem)}
+ .faq{padding:66px 0!important}
+}
+@media(max-width:767px){
+ .practice{padding:61px 0!important}
+ .practice-head{margin-bottom:24px!important}
+ .practice-intro-text h2{font-size:clamp(2.75rem,8.2vw,3.8rem)!important}
+ .practice-intro-text p{font-size:.94rem}
+ .practice-row summary{grid-template-columns:minmax(0,1fr) 25px;gap:.8rem;padding:17px 0 18px;min-height:0}
+ .practice-row-main strong{font-size:clamp(1.72rem,6vw,2.3rem);line-height:1.08}
+ .practice-row-main small{font-size:.79rem;line-height:1.45}
+ .practice-row-detail{padding:0 18px 19px 0}
+ .faq{padding:60px 0!important}
+ .faq-list{grid-template-columns:1fr;gap:12px}
+ .faq-column{gap:12px}
+ .faq-intro{margin-bottom:22px}
+}
+@media(prefers-reduced-motion:reduce){.practice-row-toggle{transition:none!important}}

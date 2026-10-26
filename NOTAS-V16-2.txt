@@ -1,0 +1,11 @@
+ASD — Dra. Denise | V16.2 | 19/10/2026
+
+Base: V16.1, preservada integralmente exceto pelas alterações abaixo.
+
+1. Menu: “A Denise” passa a “Sobre” (mesmo destino #denise).
+2. Hero desktop: ajuste de enquadramento com alinhamento vertical superior da mídia e do quadro final congelado, para reduzir o corte dos cabelos/rostos na cena final.
+3. Cabeçalho: fundo azul-marinho translúcido mais uniforme, blur discreto e transição suave para o vídeo. Links claros e CTA dourado com texto azul-escuro para contraste.
+4. Mobile: vídeo original e enquadramento mobile preservados.
+5. Nenhum outro conteúdo, mídia, contato ou documento legal alterado.
+
+VALIDAÇÃO: conferir desktop e mobile em navegador local. Não publicado no GitHub ou HostGator.

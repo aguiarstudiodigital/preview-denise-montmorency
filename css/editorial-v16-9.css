@@ -1,0 +1,46 @@
+/* V16.9 — Contact: one clear WhatsApp CTA and four alternative channels.
+   Scoped to this section; the hero, navigation and other sections are unchanged. */
+.contact-section .contact-v169 {max-width:940px;}
+.contact-section .contact-v169 h2 {margin-bottom:0.45rem;}
+.contact-section .contact-v169 .contact-welcome {font-size:clamp(1rem,1.7vw,1.22rem);margin:1.2rem 0 0;color:#d9dee5;}
+.contact-section .contact-v169 .contact-whatsapp-primary {
+  display:flex;align-items:center;justify-content:center;gap:1.15rem;
+  width:min(100%,440px);min-height:82px;padding:15px 27px;
+  margin:2.45rem auto 0;border-radius:999px;
+  border:1px solid rgba(255,240,217,.62);
+  background:linear-gradient(115deg,#d8b488 0%,#c7a073 48%,#e2be92 100%);
+  box-shadow:0 8px 28px rgba(0,0,0,.12);color:#081a2d;
+  text-decoration:none;transition:transform .2s ease,box-shadow .2s ease;
+}
+.contact-section .contact-v169 .contact-whatsapp-primary:hover {transform:translateY(-3px);box-shadow:0 13px 32px rgba(0,0,0,.21);}
+.contact-section .contact-v169 .contact-whatsapp-primary:focus-visible {outline:3px solid #fff;outline-offset:5px;}
+.contact-section .contact-v169 .contact-whatsapp-mark {display:grid;place-items:center;width:49px;height:49px;flex:none;}
+.contact-section .contact-v169 .contact-whatsapp-mark svg {width:47px;height:47px;}
+.contact-section .contact-v169 .contact-whatsapp-wording {display:flex;flex-direction:column;align-items:flex-start;text-align:left;border-left:1px solid rgba(7,24,41,.28);padding-left:1.15rem;line-height:1.12;}
+.contact-section .contact-v169 .contact-whatsapp-wording small {font:600 .69rem/1.3 'DM Sans',sans-serif;letter-spacing:.17em;text-transform:uppercase;}
+.contact-section .contact-v169 .contact-whatsapp-wording strong {font:600 clamp(1.55rem,2.6vw,2rem)/1.12 'DM Sans',sans-serif;letter-spacing:-.02em;}
+.contact-section .contact-v169 .contact-whatsapp-arrow {font-size:1.65rem;font-weight:400;margin-left:.45rem;}
+.contact-section .contact-v169 .contact-alternatives-heading {display:flex;align-items:center;gap:1.15rem;max-width:790px;margin:2.45rem auto 0;color:#d8b38a;font-size:.66rem;font-weight:600;letter-spacing:.2em;text-transform:uppercase;line-height:1.6;}
+.contact-section .contact-v169 .contact-alternatives-heading::before,.contact-section .contact-v169 .contact-alternatives-heading::after {content:"";height:1px;flex:1;background:rgba(216,179,138,.35);}
+.contact-section .contact-v169 .contact-icon-grid {display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1.3rem;margin:2rem auto 0;max-width:700px;padding:0;border-top:0;}
+.contact-section .contact-v169 .contact-icon-link {gap:.65rem;min-width:0;}
+.contact-section .contact-v169 .contact-icon-circle {width:61px;height:61px;}
+.contact-section .contact-v169 .contact-icon-label {font-size:.88rem;}
+.contact-section .contact-v169 .google-g-icon {width:29px;height:29px;}
+@media(max-width:767px) {
+  .contact-section .contact-v169 .contact-whatsapp-primary {width:min(100%,410px);min-height:78px;margin-top:2.1rem;}
+  .contact-section .contact-v169 .contact-icon-grid {grid-template-columns:repeat(4,minmax(0,1fr));gap:.35rem;margin-top:1.75rem;}
+  .contact-section .contact-v169 .contact-icon-circle {width:52px;height:52px;}
+  .contact-section .contact-v169 .contact-icon-label {font-size:.76rem;}
+  .contact-section .contact-v169 .contact-alternatives-heading {margin-top:2rem;gap:.55rem;font-size:.58rem;letter-spacing:.12em;}
+}
+@media(max-width:390px) {
+  .contact-section .contact-v169 .contact-whatsapp-primary {gap:.65rem;min-height:73px;padding:12px 16px;}
+  .contact-section .contact-v169 .contact-whatsapp-mark {width:40px;height:40px;}
+  .contact-section .contact-v169 .contact-whatsapp-mark svg {width:39px;height:39px;}
+  .contact-section .contact-v169 .contact-whatsapp-wording {padding-left:.8rem;}
+  .contact-section .contact-v169 .contact-whatsapp-wording strong {font-size:1.52rem;}
+  .contact-section .contact-v169 .contact-whatsapp-arrow {font-size:1.35rem;margin-left:.1rem;}
+  .contact-section .contact-v169 .contact-icon-circle {width:47px;height:47px;}
+  .contact-section .contact-v169 .contact-icon-label {font-size:.72rem;}
+}

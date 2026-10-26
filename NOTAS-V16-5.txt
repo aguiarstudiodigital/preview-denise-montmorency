@@ -1,0 +1,11 @@
+AGUIAR STUDIO DIGITAL | DRA. DENISE | V16.5
+
+Base: V16.4.
+- Menu azul-marinho translúcido durante TODA a rolagem, sem troca por azul sólido.
+- Degradê do topo para baixo, clareando gradualmente, com continuação sutil abaixo do menu.
+- Fundo de vidro azul com blur discreto, mantendo contraste de logomarca e links brancos.
+- Altura do menu desktop preservada em 60 px.
+- Hero: mesmos vídeos, enquadramento, poster, cena final, degradê lateral e narrativa.
+- Mobile: cabeçalho azul translúcido com contraste e menu expansível preservado.
+- Sem alterações de conteúdo, links, FAQ, áreas de atuação ou páginas legais.
+- Não publicado em GitHub/HostGator. Versão para validação.

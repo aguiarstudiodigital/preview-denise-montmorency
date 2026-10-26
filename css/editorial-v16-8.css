@@ -1,0 +1,39 @@
+/* ASD | Denise V16.8 — Somente menu mobile aprovado na V16.7.
+   A composicao inferior da hero e o video retornam integralmente a V16.6.
+   Desktop e secoes internas permanecem inalterados. */
+@media (max-width:767px) {
+  /* Na hero, logomarca e hamburguer flutuam sobre o filme, sem faixa. */
+  .nav:not(.nav-scrolled) {
+    background:transparent !important;
+    -webkit-backdrop-filter:none !important;
+    backdrop-filter:none !important;
+    box-shadow:none !important;
+    border-bottom:0 !important;
+  }
+  .nav::after,
+  .nav:not(.nav-scrolled)::after,
+  .nav.nav-scrolled::after {
+    display:none !important;
+    content:none !important;
+  }
+  .nav-inner {height:72px;}
+  .nav-toggle {
+    background:rgba(5,20,37,.83);
+    border:1px solid rgba(218,185,141,.44);
+    color:#fff;
+    -webkit-backdrop-filter:blur(5px);
+    backdrop-filter:blur(5px);
+  }
+  /* Durante a rolagem, preservar o navy glass ja aprovado. */
+  .nav.nav-scrolled {
+    background:linear-gradient(180deg,rgba(5,20,37,.83),rgba(8,25,44,.66)) !important;
+    -webkit-backdrop-filter:blur(9px) !important;
+    backdrop-filter:blur(9px) !important;
+    box-shadow:none !important;
+  }
+  .nav-links.open {
+    background:rgba(5,20,37,.97) !important;
+    -webkit-backdrop-filter:blur(10px);
+    backdrop-filter:blur(10px);
+  }
+}

@@ -1,0 +1,36 @@
+/* V16.13 — Alternativa discreta, oculta ate o clique no e-mail.
+   Nao altera o menu, hero, videos, demais canais ou layout do site. */
+.contact-section .contact-v169 .email-fallback-discreet[hidden],
+.contact-section .contact-v169 .email-copy-address[hidden] { display:none !important; }
+.contact-section .contact-v169 .email-fallback-discreet {
+  max-width:none;
+  margin:1.1rem auto 0;
+  padding:0;
+  border:0;
+  border-radius:0;
+  background:transparent;
+  box-shadow:none;
+  color:#c9d4e0;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-wrap:wrap;
+  gap:.25rem .65rem;
+  font-size:.78rem;
+  line-height:1.6;
+}
+.contact-section .contact-v169 .email-fallback-discreet .email-copy-button {
+  padding:0;
+  border:0;
+  border-radius:0;
+  border-bottom:1px solid rgba(216,179,138,.6);
+  background:transparent;
+  color:#d8b38a;
+  font:600 .78rem/1.6 'DM Sans',sans-serif;
+  cursor:pointer;
+}
+.contact-section .contact-v169 .email-fallback-discreet .email-copy-button:hover {color:#f3d8b4;border-bottom-color:currentColor;}
+.contact-section .contact-v169 .email-fallback-discreet .email-copy-address {color:#d8b38a;}
+@media (max-width:767px) {
+  .contact-section .contact-v169 .email-fallback-discreet {font-size:.75rem;margin-top:.85rem;}
+}

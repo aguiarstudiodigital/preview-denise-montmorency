@@ -1,0 +1,50 @@
+/* Aguiar Studio Digital | Denise V16.6 | Ajuste exclusivo da hero mobile
+   Continuidade do video sob o menu com navy glass, preservando as demais secoes. */
+@media (max-width:767px) {
+  /* O video e o poster comecam no topo real da hero, atras da navegacao. */
+  .hero-editorial .hero-bg-video {
+    inset:0 !important;
+    width:100%;height:100%;
+    object-fit:cover;object-position:center center;
+    -webkit-mask-image:none !important;
+    mask-image:none !important;
+  }
+  .hero-editorial .hero-final-frame {
+    inset:0 !important;
+    -webkit-mask-image:none !important;
+    mask-image:none !important;
+  }
+  .hero-editorial .hero-final-frame img {
+    object-fit:cover;object-position:center center;
+  }
+  .hero-editorial .hero-media {
+    background-position:center center !important;
+  }
+  /* Vidro azul-marinho mais escuro junto ao logo e transparente no rodape.
+     Mesmo efeito em toda a pagina, sem faixas opacas separando o filme. */
+  .nav, .nav:not(.nav-scrolled), .nav.nav-scrolled {
+    background:linear-gradient(180deg,
+      rgba(5,20,37,.83) 0%,
+      rgba(7,24,43,.67) 49%,
+      rgba(9,27,47,.40) 100%) !important;
+    -webkit-backdrop-filter:blur(7px) saturate(108%);
+    backdrop-filter:blur(7px) saturate(108%);
+    box-shadow:none !important;
+    border-bottom:0 !important;
+  }
+  .nav::after {
+    display:block !important;
+    content:"" !important;
+    position:absolute;top:100%;left:0;right:0;
+    height:22px !important;
+    background:linear-gradient(180deg,rgba(9,27,47,.16),rgba(9,27,47,0)) !important;
+    pointer-events:none;
+    border:0;
+  }
+  /* Menu aberto continua escuro o bastante para os links brancos. */
+  .nav-links.open {
+    background:rgba(5,20,37,.96) !important;
+    -webkit-backdrop-filter:blur(10px);
+    backdrop-filter:blur(10px);
+  }
+}

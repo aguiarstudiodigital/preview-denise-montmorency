@@ -1,0 +1,42 @@
+/* ASD — V16.3 | Cabeçalho leve e enquadramento equilibrado | 19/10/2026.
+   Ajuste somente da hero desktop e da altura do cabeçalho. Mantém vídeo original. */
+@media (min-width:768px) {
+  /* Header: menos altura, sem a faixa escura larga sobre a cena. */
+  .nav {
+    background:linear-gradient(180deg,rgba(5,17,31,.94) 0%,rgba(5,17,31,.88) 100%);
+    -webkit-backdrop-filter:blur(9px);
+    backdrop-filter:blur(9px);
+    box-shadow:none;
+  }
+  .nav-inner {height:64px;}
+  .brand-mini img {width:39px;height:39px;}
+  .nav-links .btn-primary {min-height:38px;padding:.53rem 1.08rem;}
+  .nav::after {
+    height:20px;
+    background:linear-gradient(180deg,rgba(5,17,31,.50),rgba(5,17,31,0));
+  }
+  /* Voltar a subir a imagem: a V16.2 empurrava toda a cena 112px para baixo.
+     Usar 46px de margem e uma máscara curta deixa rostos e cadeira mais visíveis. */
+  .hero-editorial .hero-media::before {
+    top:46px;bottom:0;height:calc(100% - 46px);
+    background-position:center 48%;
+    -webkit-mask-image:linear-gradient(to bottom,transparent 0,#000 14px);
+    mask-image:linear-gradient(to bottom,transparent 0,#000 14px);
+  }
+  .hero-editorial .hero-bg-video {
+    inset:46px 0 0 0;width:100%;height:calc(100% - 46px);
+    object-position:center 48%;
+    -webkit-mask-image:linear-gradient(to bottom,transparent 0,#000 14px);
+    mask-image:linear-gradient(to bottom,transparent 0,#000 14px);
+  }
+  .hero-editorial .hero-final-frame {
+    inset:46px 0 0 0;
+    -webkit-mask-image:linear-gradient(to bottom,transparent 0,#000 14px);
+    mask-image:linear-gradient(to bottom,transparent 0,#000 14px);
+  }
+  .hero-editorial .hero-final-frame img {object-position:center 48%;}
+}
+/* Mobile mantém enquadramento e comportamento da V16.2; suavizar apenas a transição do menu. */
+@media (max-width:767px) {
+  .nav::after {height:18px;background:linear-gradient(180deg,rgba(5,17,31,.44),transparent);}
+}
